@@ -11,6 +11,6 @@ export const DEPLOY_V3_MIGRATOR = createDeployContractStep({
     if (state.nonfungibleTokenPositionManagerAddress === undefined) {
       throw new Error('Missing NonfungiblePositionManager')
     }
-    return [state.v3CoreFactoryAddress, config.weth9Address, state.nonfungibleTokenPositionManagerAddress]
+    return [state.v3CoreFactoryAddresas, config.weth9Address, state.nonfungibleTokenPositionManagerAddress]
   },
 })
